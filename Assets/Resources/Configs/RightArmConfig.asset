@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 0}
+  m_Name: RightArmConfig
+  m_EditorClassIdentifier: Assembly-CSharp::RightArmConfig
+  skeletons:
+  - obj: {fileID: 3986278974391980597, guid: 95b000cda8f032a439829a2af05a3829, type: 3}
+    pos: {x: 0, y: -0.856, z: 0}
+    rot: {x: 0, y: 0, z: 0}
+  - obj: {fileID: 4005471109612701462, guid: c5c0ff93bf5428947930a8742852860d, type: 3}
+    pos: {x: 0, y: -0.856, z: 0}
+    rot: {x: 0, y: 0, z: 0}
+  - obj: {fileID: 6011626445277127365, guid: 070ef4104aa07044b97985f740a31c65, type: 3}
+    pos: {x: 0, y: -0.856, z: 0}
+    rot: {x: 0, y: 0, z: 0}

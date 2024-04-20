@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 0}
+  m_Name: LeftLegConfig
+  m_EditorClassIdentifier: Assembly-CSharp::LeftLegConfig
+  skeletons:
+  - obj: {fileID: 2419605516032796684, guid: b9735e630d3a9ce40bebbb2cdf6c41d8, type: 3}
+    pos: {x: 0.019, y: -0.51, z: 0}
+    rot: {x: 0, y: 0, z: 0}
+  - obj: {fileID: 4825311930818377722, guid: c91e55b55fb3aef488c1468382ec0052, type: 3}
+    pos: {x: 0.019, y: -0.51, z: 0}
+    rot: {x: 0, y: 0, z: 0}
+  - obj: {fileID: 5778394836486770117, guid: a1c3b897e434d8642b64d0a594fb0e80, type: 3}
+    pos: {x: 0.019, y: -0.51, z: 0}
+    rot: {x: 0, y: 0, z: 0}
