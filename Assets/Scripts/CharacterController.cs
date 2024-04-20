@@ -1,5 +1,7 @@
+using FVN.WindowSystem;
 using System.Collections.Generic;
 using UnityEngine;
+using static FVN.WindowSystem.IntWindow;
 
 public class CharacterController : MonoBehaviour
 {
@@ -42,4 +44,16 @@ public class CharacterController : MonoBehaviour
              SkeletonType.LeftLeg => leftLeg,
              _ => throw new System.NotImplementedException()
          };
+
+    private void Update()
+    {
+        if(Input.GetKeyDown(KeyCode.Space))
+        {
+            Windows.IntWindow("title", HeadConfig.Instance).OnCompleted += (result) =>
+            {
+                var res = result.obj as CardResult;
+                ChangeSkeleton(res.data, res.type);
+            };
+        }
+    }
 }

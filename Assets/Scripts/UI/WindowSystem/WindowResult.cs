@@ -5,5 +5,6 @@
         public bool boolResult;
         public string stringResult;
         public int intResult;
+        public object obj;
     }
 }

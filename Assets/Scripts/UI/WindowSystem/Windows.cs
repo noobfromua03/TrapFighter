@@ -9,6 +9,7 @@ namespace FVN.WindowSystem
 
         [SerializeField] private OkWindow okWindowPrefab;
         [SerializeField] private BoolWindow boolWindowPrefab;
+        [SerializeField] private IntWindow intWindowPrefab;
 
         private void Awake()
         {
@@ -26,6 +27,10 @@ namespace FVN.WindowSystem
 
         public static DefaultWindow BoolWindow(string title, string desc, List<string> btnTexts)
             => InitializeWindow(Instance.boolWindowPrefab.gameObject, title, desc, btnTexts);
+
+        public static DefaultWindow IntWindow(string title, ISkeletonConfig config)
+            => InitializeWindow(Instance.intWindowPrefab.gameObject, title, "", new List<string>() { })
+                 .Initialize(config);
 
         private static DefaultWindow InitializeWindow(GameObject windowPrefab, string title, string desc, List<string> btnTexts)
             => Instantiate(windowPrefab, Instance.transform)

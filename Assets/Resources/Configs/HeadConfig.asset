@@ -16,9 +16,12 @@ MonoBehaviour:
   - obj: {fileID: 6167950427242689300, guid: 9582de503f8b41a47affbbed5b5f4eb8, type: 3}
     pos: {x: 0.016, y: 0.416, z: 0}
     rot: {x: 0, y: 0, z: 0}
+    description: desc 1
   - obj: {fileID: 701397591940628060, guid: 0a1cc000cc382024a82637d4c4e229a3, type: 3}
     pos: {x: 0.016, y: 0.416, z: 0}
     rot: {x: 0, y: 0, z: 0}
+    description: desc 2
   - obj: {fileID: 1024689031656018181, guid: 3f75695aebf370240a8c3ef0549a46bd, type: 3}
     pos: {x: 0.016, y: 0.416, z: 0}
     rot: {x: 0, y: 0, z: 0}
+    description: desc 3

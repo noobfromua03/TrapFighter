@@ -18,6 +18,7 @@ public class SkeletonData
     public GameObject obj;
     public Vector3 pos;
     public Vector3 rot;
+    public string description;
 }
 
 public enum SkeletonType
