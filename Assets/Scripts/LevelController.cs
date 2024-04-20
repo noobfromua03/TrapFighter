@@ -1,3 +1,4 @@
+using FVN.Helpers;
 using System;
 using System.Collections;
 using System.Collections.Generic;
@@ -9,37 +10,68 @@ public class LevelController : MonoBehaviour
     [SerializeField] private Enemy enemyPrefab;
     [SerializeField] private float enemyHP;
     [SerializeField] private float enemySpeed;
+    [SerializeField] private float spawnDelay;
+    [SerializeField] private float waves;
+    [SerializeField] private GameObject exit;
+
+    public int NotesAmount;
 
     private List<Enemy> enemies = new List<Enemy>();
 
     private int diedEnemies = 0;
 
-    private void Start()
+    public Action OnFinish;
+
+    private bool spawning = false;
+
+    public void Initialize(List<Note> notes)
     {
-        StartCoroutine(SpawnAsync());
+        StartCoroutine(SpawnAsync(notes));
     }
 
-    private IEnumerator SpawnAsync()
+    private IEnumerator SpawnAsync(List<Note> notes)
     {
-        for (int i = 0; i < 3; i++)
+        spawning = true;
+        notes.Shuffle();
+        var notesToSpawn = new List<Note>(notes).GetRange(0, NotesAmount);
+        int noteIndex = 0;
+        for (int i = 0; i < waves; i++)
         {
             foreach (var spawnPoint in spawnPoints)
             {
+                yield return new WaitForSeconds(spawnDelay);
+
                 var enemy = Instantiate(enemyPrefab, spawnPoint.position, Quaternion.identity);
                 enemy.ChangeSpeed(enemySpeed);
                 enemy.ChangeHP(enemyHP);
                 enemy.OnDie += OnDieEnemy;
+
+                if (UnityEngine.Random.Range(0f, 1f) > 0.75f)
+                {
+                    if (noteIndex < notesToSpawn.Count)
+                    {
+                        enemy.AddNote(notesToSpawn[noteIndex]);
+                        notes.Remove(notesToSpawn[noteIndex]);
+                        noteIndex++;
+                    }
+                }
+
                 enemies.Add(enemy);
-                yield return new WaitForSeconds(0.25f);
             }
         }
+        spawning = false;
     }
 
     private void OnDieEnemy()
     {
         diedEnemies += 1;
 
-        if (diedEnemies >= enemies.Count)
-            Debug.Log("All enemies died!");
+        if (diedEnemies >= enemies.Count && spawning == false)
+            exit.SetActive(true);
+    }
+
+    public void Finish()
+    {
+        OnFinish?.Invoke();
     }
 }

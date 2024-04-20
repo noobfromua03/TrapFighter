@@ -19,6 +19,8 @@ public class CharacterController : MonoBehaviour
 
     private Dictionary<SkeletonType, SkeletonData> skeletons = new Dictionary<SkeletonType, SkeletonData>();
 
+    public bool CanMove { set => movement.CanMove = value; }
+
     public void ResetHP()
     {
         hp = defaultHP;

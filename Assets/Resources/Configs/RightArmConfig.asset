@@ -9,25 +9,30 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 0}
+  m_Script: {fileID: 11500000, guid: a7b9a2988109ffc4bbaa5cdd44de8f3e, type: 3}
   m_Name: RightArmConfig
-  m_EditorClassIdentifier: Assembly-CSharp::RightArmConfig
+  m_EditorClassIdentifier: 
   skeletons:
   - obj: {fileID: 818142646828436055, guid: 3c84023fa79da2a4291b45f10cab03ab, type: 3}
-    description: 12
-    speedMultiplier: 1
-    damageMultiplier: 2
+    description: "\u041C\u043E\u0436\u043D\u0430 \u0437\u0430\u0431\u0438\u0432\u0430\u0442\u0438
+      \u0446\u0432\u044F\u0445\u0438. \u0430\u0431\u043E \u0436 \u0442\u0440\u043E\u0449\u0438\u0442\u0438
+      \u0447\u0430\u0439\u043D\u0438\u043A\u0438"
+    speedMultiplier: 1.2
+    damageMultiplier: 1.4
     healthMultiplier: 1
-    attackSpeedMultiplier: 620
+    attackSpeedMultiplier: 640
   - obj: {fileID: 818142646828436055, guid: b6ba0bd632f405b4fa893a1cfaaa25bf, type: 3}
-    description: 12312
-    speedMultiplier: 0
-    damageMultiplier: 0
-    healthMultiplier: 0
-    attackSpeedMultiplier: 0
+    description: "\u0414\u0430\u043D\u0438\u0439 \u043F\u0440\u0435\u0434\u043C\u0435\u0442
+      \u0434\u0443\u0436\u0435 \u043E\u0431\u043E\u0436\u043D\u044E\u044E\u0442\u044C
+      \u0441\u043E\u0431\u0430\u043A\u0438"
+    speedMultiplier: 0.9
+    damageMultiplier: 1.75
+    healthMultiplier: 1.1
+    attackSpeedMultiplier: 360
   - obj: {fileID: 818142646828436055, guid: e08b362395b3f0f4c8a6353cae0a5832, type: 3}
-    description: 312312312321312
-    speedMultiplier: 0
-    damageMultiplier: 0
-    healthMultiplier: 0
-    attackSpeedMultiplier: 0
+    description: "\u041D\u0430\u0439\u043A\u0440\u0430\u0449\u0438\u0439 \u043F\u043E\u0434\u0430\u0440\u0443\u043D\u043E\u043A
+      \u0434\u043B\u044F \u043A\u043E\u0445\u0430\u043D\u043E\u0457 \u0436\u0456\u043D\u043A\u0438"
+    speedMultiplier: 1.25
+    damageMultiplier: 1.25
+    healthMultiplier: 1
+    attackSpeedMultiplier: 800

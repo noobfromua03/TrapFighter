@@ -1,0 +1,59 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 733ca95d89ef89d4eaed528c192a635f, type: 3}
+  m_Name: NotesConfig
+  m_EditorClassIdentifier: 
+  notes:
+  - princessId: 0
+    text: 00000000000
+  - princessId: 0
+    text: 000000000000
+  - princessId: 1
+    text: 11111111111111
+  - princessId: 1
+    text: 11111111111111
+  - princessId: 2
+    text: 222222222222
+  - princessId: 2
+    text: 222222222222
+  - princessId: 3
+    text: 3333333333333
+  - princessId: 3
+    text: 333333333333
+  - princessId: 3
+    text: 333333333333
+  - princessId: 3
+    text: 333333333333
+  - princessId: 3
+    text: 333333333333
+  - princessId: 3
+    text: 333333333333
+  - princessId: 3
+    text: 333333333333
+  - princessId: 3
+    text: 333333333333
+  - princessId: 3
+    text: 333333333333
+  - princessId: 3
+    text: 333333333333
+  - princessId: 3
+    text: 333333333333
+  - princessId: 3
+    text: 333333333333
+  - princessId: 3
+    text: 333333333333
+  - princessId: 3
+    text: 333333333333
+  - princessId: 3
+    text: 333333333333
+  - princessId: 3
+    text: 333333333333
