@@ -1,3 +1,4 @@
+using FVN.WindowSystem;
 using UnityEngine;
 
 public class NoteItem : MonoBehaviour
@@ -12,10 +13,13 @@ public class NoteItem : MonoBehaviour
     private void OnMouseDown()
     {
         Debug.Log("Clicked");
+        Windows.OkWindow($"Принцеса {note.princessId}", note.text, "Продовжити");
+        GameController.Instance.AddNote(note);
         Destroy(gameObject);
     }
 }
 
+[System.Serializable]
 public class Note
 {
     public int princessId;

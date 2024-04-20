@@ -14,26 +14,25 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   skeletons:
   - obj: {fileID: 6167950427242689300, guid: 9582de503f8b41a47affbbed5b5f4eb8, type: 3}
-    pos: {x: 0.016, y: 0.416, z: 0}
-    rot: {x: 0, y: 0, z: 0}
-    description: desc 1
-    speedMultiplier: 0
-    damageMultiplier: 0
-    healthMultiplier: 0
-    attackSpeedMultiplier: 60
-  - obj: {fileID: 701397591940628060, guid: 0a1cc000cc382024a82637d4c4e229a3, type: 3}
-    pos: {x: 0.016, y: 0.416, z: 0}
-    rot: {x: 0, y: 0, z: 0}
-    description: desc 2
-    speedMultiplier: 0
-    damageMultiplier: 0
-    healthMultiplier: 0
-    attackSpeedMultiplier: 0
-  - obj: {fileID: 1024689031656018181, guid: 3f75695aebf370240a8c3ef0549a46bd, type: 3}
-    pos: {x: 0.016, y: 0.416, z: 0}
-    rot: {x: 0, y: 0, z: 0}
-    description: desc 3
-    speedMultiplier: 0
-    damageMultiplier: 0
-    healthMultiplier: 0
-    attackSpeedMultiplier: 0
+    description: "\u0422\u0430\u043A\u0438\u043C \u043F\u0440\u0435\u0434\u043C\u0435\u0442\u043E\u043C
+      \u043C\u043E\u0436\u043D\u0430 \u0440\u0456\u0437\u0430\u0442\u0438 \u0434\u043E\u0448\u043A\u0438,
+      \u0430 \u0456\u043D\u043E\u0434\u0456 \u0439 \u0433\u0440\u0430\u0442\u0438..."
+    speedMultiplier: 0.8
+    damageMultiplier: 2
+    healthMultiplier: 0.8
+    attackSpeedMultiplier: 720
+  - obj: {fileID: 6167950427242689300, guid: 44871dadd5fcc35429d5ce56826e05f1, type: 3}
+    description: "\u041C'\u044F\u043A\u0438\u0439 \u0442\u0430 \u043D\u0456\u0436\u043D\u0438\u0439,
+      \u0437\u0430\u0432\u0436\u0434\u0438 \u043C\u043E\u0436\u043D\u0430 \u043F\u043E\u0433\u043B\u0430\u0434\u0438\u0442\u0438
+      \u0442\u0430 \u0437\u0430\u0441\u043F\u043E\u043A\u043E\u0457\u0442\u0438\u0441\u044F"
+    speedMultiplier: 1.25
+    damageMultiplier: 1.1
+    healthMultiplier: 1.5
+    attackSpeedMultiplier: 360
+  - obj: {fileID: 6167950427242689300, guid: c027daa050362244d8bc4303886ac736, type: 3}
+    description: "\u041C\u043E\u0436\u043D\u0430 \u0441\u043F\u0440\u043E\u0431\u0443\u0432\u0430\u0442\u0438
+      \u0437\u0456\u0433\u0440\u0430\u0442\u0438 \u0443 \u0444\u0443\u0442\u0431\u043E\u043B"
+    speedMultiplier: 0.6
+    damageMultiplier: 1.5
+    healthMultiplier: 2
+    attackSpeedMultiplier: 540
