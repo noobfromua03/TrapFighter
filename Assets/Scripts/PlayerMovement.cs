@@ -6,6 +6,11 @@ public class PlayerMovement : MonoBehaviour
     public float speed;
     public Rigidbody2D rb;
 
+    public void ChangeSpeed(float speed)
+    {
+        this.speed = speed;
+    }
+
     private void Update()
     {
         var vector = new Vector3(Input.GetAxisRaw("Horizontal"), Input.GetAxisRaw("Vertical"), 0);

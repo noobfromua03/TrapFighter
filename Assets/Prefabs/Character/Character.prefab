@@ -262,6 +262,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 194012b6c19f77c4799ab9ada3eefb76, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  movement: {fileID: 6096302829881085496}
   rightArm: {fileID: 4489896753754622037}
   leftArm: {fileID: 230412801258001064}
   rightLeg: {fileID: 5104677125104546786}

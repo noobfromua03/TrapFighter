@@ -13,12 +13,21 @@ MonoBehaviour:
   m_Name: RightArmConfig
   m_EditorClassIdentifier: Assembly-CSharp::RightArmConfig
   skeletons:
-  - obj: {fileID: 3986278974391980597, guid: 95b000cda8f032a439829a2af05a3829, type: 3}
-    pos: {x: 0, y: -0.856, z: 0}
-    rot: {x: 0, y: 0, z: 0}
-  - obj: {fileID: 4005471109612701462, guid: c5c0ff93bf5428947930a8742852860d, type: 3}
-    pos: {x: 0, y: -0.856, z: 0}
-    rot: {x: 0, y: 0, z: 0}
-  - obj: {fileID: 6011626445277127365, guid: 070ef4104aa07044b97985f740a31c65, type: 3}
-    pos: {x: 0, y: -0.856, z: 0}
-    rot: {x: 0, y: 0, z: 0}
+  - obj: {fileID: 818142646828436055, guid: 3c84023fa79da2a4291b45f10cab03ab, type: 3}
+    description: 12
+    speedMultiplier: 1
+    damageMultiplier: 2
+    healthMultiplier: 1
+    attackSpeedMultiplier: 620
+  - obj: {fileID: 818142646828436055, guid: b6ba0bd632f405b4fa893a1cfaaa25bf, type: 3}
+    description: 12312
+    speedMultiplier: 0
+    damageMultiplier: 0
+    healthMultiplier: 0
+    attackSpeedMultiplier: 0
+  - obj: {fileID: 818142646828436055, guid: e08b362395b3f0f4c8a6353cae0a5832, type: 3}
+    description: 312312312321312
+    speedMultiplier: 0
+    damageMultiplier: 0
+    healthMultiplier: 0
+    attackSpeedMultiplier: 0
