@@ -19,6 +19,10 @@ public class SkeletonData
     public Vector3 pos;
     public Vector3 rot;
     public string description;
+    public float speedMultiplier;
+    public float damageMultiplier;
+    public float healthMultiplier;
+    public float attackSpeedMultiplier;
 }
 
 public enum SkeletonType

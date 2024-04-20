@@ -11,6 +11,9 @@ public class CharacterController : MonoBehaviour
     public Transform leftLeg;
     public Transform head;
 
+
+    private Dictionary<SkeletonType, SkeletonData> skeletons = new Dictionary<SkeletonType, SkeletonData>();
+
     private void Awake()
     {
         List<ISkeletonConfig> configs = new()
@@ -23,15 +26,17 @@ public class CharacterController : MonoBehaviour
         };
 
         foreach (var config in configs)
-            ChangeSkeleton(config.Skeletons[1], config.Type);
+            AddSkeleton(config.Skeletons[1], config.Type);
     }
 
-    public void ChangeSkeleton(SkeletonData data, SkeletonType type)
+    public void AddSkeleton(SkeletonData data, SkeletonType type)
     {
         var container = GetTransformSkeleton(type);
         var go = Instantiate(data.obj, container);
         go.transform.localPosition = data.pos;
         go.transform.localRotation = Quaternion.Euler(data.rot);
+
+
     }
 
     public Transform GetTransformSkeleton(SkeletonType type) =>
@@ -47,12 +52,15 @@ public class CharacterController : MonoBehaviour
 
     private void Update()
     {
+
+
+
         if(Input.GetKeyDown(KeyCode.Space))
         {
             Windows.IntWindow("title", HeadConfig.Instance).OnCompleted += (result) =>
             {
                 var res = result.obj as CardResult;
-                ChangeSkeleton(res.data, res.type);
+                AddSkeleton(res.data, res.type);
             };
         }
     }
