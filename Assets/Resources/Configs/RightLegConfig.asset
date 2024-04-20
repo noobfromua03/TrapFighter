@@ -12,13 +12,4 @@ MonoBehaviour:
   m_Script: {fileID: 0}
   m_Name: RightLegConfig
   m_EditorClassIdentifier: Assembly-CSharp::RightLegConfig
-  skeletons:
-  - obj: {fileID: 6039045212590486325, guid: 62b5133dc22182149a2d5a167a81d05a, type: 3}
-    pos: {x: -0.036, y: -0.601, z: 0}
-    rot: {x: 0, y: 0, z: 0}
-  - obj: {fileID: 9071311127210133054, guid: c7194b43e723f7e4288ec0c17e8e818d, type: 3}
-    pos: {x: -0.036, y: -0.601, z: 0}
-    rot: {x: 0, y: 0, z: 0}
-  - obj: {fileID: 1222516435051936736, guid: 9bf0de6f29229634e957fc8d5f2ee249, type: 3}
-    pos: {x: -0.036, y: -0.601, z: 0}
-    rot: {x: 0, y: 0, z: 0}
+  skeletons: []
