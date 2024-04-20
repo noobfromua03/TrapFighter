@@ -12,4 +12,22 @@ MonoBehaviour:
   m_Script: {fileID: 0}
   m_Name: RightArmConfig
   m_EditorClassIdentifier: Assembly-CSharp::RightArmConfig
-  skeletons: []
+  skeletons:
+  - obj: {fileID: 818142646828436055, guid: 3c84023fa79da2a4291b45f10cab03ab, type: 3}
+    description: 12
+    speedMultiplier: 1
+    damageMultiplier: 2
+    healthMultiplier: 1
+    attackSpeedMultiplier: 620
+  - obj: {fileID: 818142646828436055, guid: b6ba0bd632f405b4fa893a1cfaaa25bf, type: 3}
+    description: 12312
+    speedMultiplier: 0
+    damageMultiplier: 0
+    healthMultiplier: 0
+    attackSpeedMultiplier: 0
+  - obj: {fileID: 818142646828436055, guid: e08b362395b3f0f4c8a6353cae0a5832, type: 3}
+    description: 312312312321312
+    speedMultiplier: 0
+    damageMultiplier: 0
+    healthMultiplier: 0
+    attackSpeedMultiplier: 0

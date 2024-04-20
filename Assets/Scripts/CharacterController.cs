@@ -5,33 +5,42 @@ using static FVN.WindowSystem.IntWindow;
 
 public class CharacterController : MonoBehaviour
 {
+    [SerializeField] private PlayerMovement movement;
+
     public Transform rightArm;
     public Transform leftArm;
     public Transform rightLeg;
     public Transform leftLeg;
     public Transform head;
 
-    private void Awake()
-    {
-        List<ISkeletonConfig> configs = new()
-        {
-            HeadConfig.Instance,
-            RightArmConfig.Instance,
-            LeftArmConfig.Instance,
-            RightLegConfig.Instance,
-            LeftLegConfig.Instance
-        };
+    private float defaultHP = 100;
+    private float defaultSpeed = 10;
+    private float hp = 100;
 
-        foreach (var config in configs)
-            ChangeSkeleton(config.Skeletons[1], config.Type);
+    private Dictionary<SkeletonType, SkeletonData> skeletons = new Dictionary<SkeletonType, SkeletonData>();
+
+    public void ResetHP()
+    {
+        hp = defaultHP;
+        foreach(var skeleton in skeletons)
+            hp *= skeleton.Value.healthMultiplier;
     }
 
-    public void ChangeSkeleton(SkeletonData data, SkeletonType type)
+    public void AddSkeleton(SkeletonData data, SkeletonType type)
     {
         var container = GetTransformSkeleton(type);
         var go = Instantiate(data.obj, container);
-        go.transform.localPosition = data.pos;
-        go.transform.localRotation = Quaternion.Euler(data.rot);
+
+        if(go.TryGetComponent(out SkeletonWeapon weapon))
+            weapon.Initialize(data);
+
+        skeletons.Add(type, data);
+
+        var speed = defaultSpeed;
+        foreach (var skeleton in skeletons)
+            speed *= skeleton.Value.speedMultiplier;
+
+        movement.ChangeSpeed(speed);
     }
 
     public Transform GetTransformSkeleton(SkeletonType type) =>
@@ -45,15 +54,13 @@ public class CharacterController : MonoBehaviour
              _ => throw new System.NotImplementedException()
          };
 
-    private void Update()
+    public void TakeDamage(float damage)
     {
-        if(Input.GetKeyDown(KeyCode.Space))
+        Debug.Log("Take damage");
+        hp -= damage;
+        if(hp <= 0)
         {
-            Windows.IntWindow("title", HeadConfig.Instance).OnCompleted += (result) =>
-            {
-                var res = result.obj as CardResult;
-                ChangeSkeleton(res.data, res.type);
-            };
+            Debug.Log("Game Over");
         }
-    }
+    }    
 }

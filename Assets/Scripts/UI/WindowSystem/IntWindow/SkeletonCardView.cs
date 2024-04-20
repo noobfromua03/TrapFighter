@@ -20,6 +20,7 @@ public class SkeletonCardView : MonoBehaviour
 
     public void OnClick()
     {
+        Debug.Log("Click on card");
         OnChoice?.Invoke(data, type);
     }
 }

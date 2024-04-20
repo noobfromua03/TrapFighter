@@ -12,4 +12,28 @@ MonoBehaviour:
   m_Script: {fileID: 0}
   m_Name: LeftArmConfig
   m_EditorClassIdentifier: Assembly-CSharp::LeftArmConfig
-  skeletons: []
+  skeletons:
+  - obj: {fileID: 818142646828436055, guid: 7982821b7be560948aa3ca50bcd4af54, type: 3}
+    pos: {x: 0, y: -0.705, z: 0}
+    rot: {x: 0, y: 0, z: 0}
+    description: 
+    speedMultiplier: 0
+    damageMultiplier: 0
+    healthMultiplier: 0
+    attackSpeedMultiplier: 0
+  - obj: {fileID: 818142646828436055, guid: b6ba0bd632f405b4fa893a1cfaaa25bf, type: 3}
+    pos: {x: 0, y: -0.705, z: 0}
+    rot: {x: 0, y: 0, z: 0}
+    description: 
+    speedMultiplier: 0
+    damageMultiplier: 0
+    healthMultiplier: 0
+    attackSpeedMultiplier: 0
+  - obj: {fileID: 818142646828436055, guid: e08b362395b3f0f4c8a6353cae0a5832, type: 3}
+    pos: {x: 0, y: -0.705, z: 0}
+    rot: {x: 0, y: 0, z: 0}
+    description: 
+    speedMultiplier: 0
+    damageMultiplier: 0
+    healthMultiplier: 0
+    attackSpeedMultiplier: 0
