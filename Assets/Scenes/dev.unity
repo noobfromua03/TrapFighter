@@ -1216,67 +1216,67 @@ MonoBehaviour:
   - skeletonType: 1
     controller1: {fileID: 8095443960218716105, guid: 633d8a4886795a44988429041348e9c5,
       type: 3}
-    playGround1: {fileID: 7587869726403886373, guid: aaeb456a8c5bed446b4b2a8436f4fc9e,
+    playGround1: {fileID: 5877367014945328397, guid: c343be9283c29304981c51ee8bd173cf,
       type: 3}
-    decorations1: {fileID: 6501512482618373744, guid: 5eff9392855799f42b223b8f80368ef0,
+    decorations1: {fileID: 680428444023712624, guid: eb1bd24544133d14d9bc23b4137ee046,
       type: 3}
     controller2: {fileID: 8095443960218716105, guid: d40588161addadf4ab9cced583024f49,
       type: 3}
-    playGround2: {fileID: 8310598633235475971, guid: c343be9283c29304981c51ee8bd173cf,
+    playGround2: {fileID: 8400629726927119660, guid: 1a74f6b28a8bef84aad826a57fca145c,
       type: 3}
-    decorations2: {fileID: 8537881124700292843, guid: a577972359e2dac4081c260c00f4e6c5,
+    decorations2: {fileID: 4495800556968282647, guid: 4d43fac1d2bcddf4dbe850a6ee0b1109,
       type: 3}
   - skeletonType: 3
     controller1: {fileID: 8095443960218716105, guid: 6cf2c842fefafc74db95b31b31493e90,
       type: 3}
-    playGround1: {fileID: 7587869726403886373, guid: aaeb456a8c5bed446b4b2a8436f4fc9e,
+    playGround1: {fileID: 8400629726927119660, guid: 1a74f6b28a8bef84aad826a57fca145c,
       type: 3}
-    decorations1: {fileID: 8299729288702475988, guid: 017ffb480c483194181c454e1554ace6,
+    decorations1: {fileID: 7977350316139595196, guid: 36105f7e588208d4a871ee6d1b704f06,
       type: 3}
     controller2: {fileID: 8095443960218716105, guid: f32bce17e9cc3f44686490c9cccd4885,
       type: 3}
-    playGround2: {fileID: 8310598633235475971, guid: c343be9283c29304981c51ee8bd173cf,
+    playGround2: {fileID: 5877367014945328397, guid: c343be9283c29304981c51ee8bd173cf,
       type: 3}
-    decorations2: {fileID: 8537881124700292843, guid: a577972359e2dac4081c260c00f4e6c5,
+    decorations2: {fileID: 7614778012959884032, guid: 7ae79265f47bbf94bbd37829c0644019,
       type: 3}
   - skeletonType: 0
     controller1: {fileID: 8095443960218716105, guid: 9eece55405004ea4b8074af49b53828a,
       type: 3}
-    playGround1: {fileID: 7587869726403886373, guid: aaeb456a8c5bed446b4b2a8436f4fc9e,
+    playGround1: {fileID: 5877367014945328397, guid: c343be9283c29304981c51ee8bd173cf,
       type: 3}
-    decorations1: {fileID: 8299729288702475988, guid: 017ffb480c483194181c454e1554ace6,
+    decorations1: {fileID: 8537881124700292843, guid: a577972359e2dac4081c260c00f4e6c5,
       type: 3}
     controller2: {fileID: 8095443960218716105, guid: 425685401b977634f88f6e90571ff908,
       type: 3}
-    playGround2: {fileID: 8310598633235475971, guid: c343be9283c29304981c51ee8bd173cf,
+    playGround2: {fileID: 8400629726927119660, guid: 1a74f6b28a8bef84aad826a57fca145c,
       type: 3}
-    decorations2: {fileID: 8537881124700292843, guid: a577972359e2dac4081c260c00f4e6c5,
+    decorations2: {fileID: 4495800556968282647, guid: 4d43fac1d2bcddf4dbe850a6ee0b1109,
       type: 3}
   - skeletonType: 4
     controller1: {fileID: 8095443960218716105, guid: 217098182f93237448c4ba69d14fa5b0,
       type: 3}
-    playGround1: {fileID: 7587869726403886373, guid: aaeb456a8c5bed446b4b2a8436f4fc9e,
+    playGround1: {fileID: 8400629726927119660, guid: 1a74f6b28a8bef84aad826a57fca145c,
       type: 3}
-    decorations1: {fileID: 6501512482618373744, guid: 5eff9392855799f42b223b8f80368ef0,
+    decorations1: {fileID: 7614778012959884032, guid: 7ae79265f47bbf94bbd37829c0644019,
       type: 3}
     controller2: {fileID: 8095443960218716105, guid: e8b91fdf169187e47aeff22e2dfa683e,
       type: 3}
-    playGround2: {fileID: 8310598633235475971, guid: c343be9283c29304981c51ee8bd173cf,
+    playGround2: {fileID: 5877367014945328397, guid: c343be9283c29304981c51ee8bd173cf,
       type: 3}
-    decorations2: {fileID: 8537881124700292843, guid: a577972359e2dac4081c260c00f4e6c5,
+    decorations2: {fileID: 7977350316139595196, guid: 36105f7e588208d4a871ee6d1b704f06,
       type: 3}
   - skeletonType: 2
     controller1: {fileID: 8095443960218716105, guid: 730a0d99adfc422499cdc3ee90bb5619,
       type: 3}
-    playGround1: {fileID: 7587869726403886373, guid: aaeb456a8c5bed446b4b2a8436f4fc9e,
+    playGround1: {fileID: 8400629726927119660, guid: 1a74f6b28a8bef84aad826a57fca145c,
       type: 3}
-    decorations1: {fileID: 8299729288702475988, guid: 017ffb480c483194181c454e1554ace6,
+    decorations1: {fileID: 4495800556968282647, guid: 4d43fac1d2bcddf4dbe850a6ee0b1109,
       type: 3}
     controller2: {fileID: 8095443960218716105, guid: da5a38cb0d7df864fa938909b3fc897d,
       type: 3}
-    playGround2: {fileID: 8310598633235475971, guid: c343be9283c29304981c51ee8bd173cf,
+    playGround2: {fileID: 8400629726927119660, guid: 1a74f6b28a8bef84aad826a57fca145c,
       type: 3}
-    decorations2: {fileID: 8537881124700292843, guid: a577972359e2dac4081c260c00f4e6c5,
+    decorations2: {fileID: 7614778012959884032, guid: 7ae79265f47bbf94bbd37829c0644019,
       type: 3}
   rooms: {fileID: 850774605}
   finalQuest: {fileID: 1592447758}
