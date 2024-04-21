@@ -18,6 +18,12 @@ namespace FVN.WindowSystem
             return this;
         }
 
+        public override DefaultWindow WithTitle(string label)
+        {
+            view.title.text = label;
+            return this;
+        }
+
 
         public void HandleChoice(SkeletonData data, SkeletonType type)
         {

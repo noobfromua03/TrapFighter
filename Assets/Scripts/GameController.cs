@@ -71,7 +71,7 @@ public class GameController : MonoBehaviour
         character.CanMove = false;
         character.ResetHP();
 
-        Windows.IntWindow("title", GetConfig(stageData.skeletonType)).OnCompleted += (result) =>
+        Windows.IntWindow("Вибери нову кінцівку: ", GetConfig(stageData.skeletonType)).OnCompleted += (result) =>
         {
             character.CanMove = true;
             var res = result.obj as CardResult;
