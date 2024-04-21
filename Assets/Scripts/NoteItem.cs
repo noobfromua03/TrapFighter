@@ -13,7 +13,7 @@ public class NoteItem : MonoBehaviour
     private void OnMouseDown()
     {
         Debug.Log("Clicked");
-        Windows.OkWindow($"Принцеса {note.princessId}", note.text, "Продовжити");
+        Windows.OkWindow($"Принцеса {note.princessId + 1}", note.text, "Продовжити");
         GameController.Instance.AddNote(note);
         Destroy(gameObject);
     }
