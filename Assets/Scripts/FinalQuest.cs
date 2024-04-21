@@ -26,14 +26,20 @@ public class FinalQuest : MonoBehaviour
         foreach (Transform child in factsContainer)
             Destroy(child.gameObject);
 
+        label.text = $"Принцеса {index + 1}";
+        canvasFacts.SetActive(true);
         if (notes.Count > 0)
         {
-            canvasFacts.SetActive(true);
             foreach (var note in notes.Where(n => n.princessId == index))
             {
                 var fact = Instantiate(factPrefab, factsContainer);
                 fact.GetComponentInChildren<TMP_Text>().text = note.text;
             }
+        }
+        else
+        {
+            var fact = Instantiate(factPrefab, factsContainer);
+            fact.GetComponentInChildren<TMP_Text>().text = "Не знайдено жодних підказок.";
         }
     }
 

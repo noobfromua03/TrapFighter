@@ -1359,7 +1359,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1592447758}
         m_TargetAssemblyTypeName: FinalQuest, Assembly-CSharp
-        m_MethodName: OnClick
+        m_MethodName: Pickup
         m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1525,7 +1525,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1592447758}
         m_TargetAssemblyTypeName: FinalQuest, Assembly-CSharp
-        m_MethodName: OnClick
+        m_MethodName: Pickup
         m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1835,7 +1835,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1592447758}
         m_TargetAssemblyTypeName: FinalQuest, Assembly-CSharp
-        m_MethodName: OnClick
+        m_MethodName: Pickup
         m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -2170,8 +2170,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4281479730
-  m_fontColor: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+    rgba: 4289046015
+  m_fontColor: {r: 1, g: 0.6462264, b: 0.6462264, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -2595,7 +2595,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1592447758}
         m_TargetAssemblyTypeName: FinalQuest, Assembly-CSharp
-        m_MethodName: OnClick
+        m_MethodName: Pickup
         m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -2877,8 +2877,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4281479730
-  m_fontColor: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+    rgba: 4289046015
+  m_fontColor: {r: 1, g: 0.6462264, b: 0.6462264, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -3510,8 +3510,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4281479730
-  m_fontColor: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+    rgba: 4289046015
+  m_fontColor: {r: 1, g: 0.6462264, b: 0.6462264, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -3885,7 +3885,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1592447757
 Transform:
   m_ObjectHideFlags: 0
@@ -4201,8 +4201,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4281479730
-  m_fontColor: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+    rgba: 4289046015
+  m_fontColor: {r: 1, g: 0.6462264, b: 0.6462264, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
