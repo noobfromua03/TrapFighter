@@ -15,7 +15,7 @@ public class PlayerMovement : MonoBehaviour
         this.speed = speed;
     }
 
-    private void Update()
+    private void FixedUpdate()
     {
         if (CanMove == false)
             return;

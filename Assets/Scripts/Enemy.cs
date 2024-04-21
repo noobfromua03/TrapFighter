@@ -39,7 +39,7 @@ public class Enemy : MonoBehaviour, IDamageable
         this.note = note;
     }
 
-    private void Update()
+    private void FixedUpdate()
     {
         if (character == null)
             return;
