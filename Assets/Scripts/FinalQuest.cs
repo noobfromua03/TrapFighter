@@ -1,3 +1,4 @@
+using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using TMPro;
@@ -9,8 +10,11 @@ public class FinalQuest : MonoBehaviour
     [SerializeField] private Transform factsContainer;
     [SerializeField] private GameObject factPrefab;
     [SerializeField] private TMP_Text label;
+    [SerializeField] private List<Transform> screens;
 
     private List<Note> notes;
+
+    private bool finished = false;
 
     public void Initialize(List<Note> notes)
     {
@@ -36,5 +40,24 @@ public class FinalQuest : MonoBehaviour
     public void CloseFacts()
     {
         canvasFacts.SetActive(false);
+    }
+
+    public void Pickup(int index)
+    {
+        if (finished)
+            return;
+
+        finished = true;
+        StartCoroutine(ScreenAnim(screens[index]));
+    }
+
+
+    private IEnumerator ScreenAnim(Transform tr)
+    {
+        for(float i = 0f; i <= 50f; i += Time.deltaTime * 5f)
+        {
+            tr.Translate(Vector3.up * i);
+            yield return null;
+        }
     }
 }
